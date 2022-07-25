@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="3" parallel="classes" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="ZaleniumDemo.ZaleniumTestChrome2">
+        <methods>
+          <include name="stop_Zalenium"/>
+          <include name="start_Zalenium"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- ZaleniumDemo.ZaleniumTestChrome2 -->
+      <class name="ZaleniumDemo.ZaleniumTestChrome">
+        <methods>
+          <include name="stop_Zalenium"/>
+          <include name="test1"/>
+          <include name="start_Zalenium"/>
+        </methods>
+      </class> <!-- ZaleniumDemo.ZaleniumTestChrome -->
+      <class name="ZaleniumDemo.ZaleniumTestFirefox">
+        <methods>
+          <include name="stop_Zalenium"/>
+          <include name="test3"/>
+          <include name="start_Zalenium"/>
+        </methods>
+      </class> <!-- ZaleniumDemo.ZaleniumTestFirefox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
