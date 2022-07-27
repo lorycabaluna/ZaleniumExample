@@ -13,7 +13,7 @@ public class ON_OFF_Zalenium {
 		
 		//Runtime.getRuntime().exec("open /Users/macbookpro152014retina/Desktop/Zalenium_start.command");
 		//Runtime.getRuntime().exec("open /Users/macbookpro152014retina/eclipse-workspace/ZaleniumTest/ZaleniumStart_Stop/Zalenium_start.command");
-		Runtime.getRuntime().exec("open /ZaleniumExample/ZaleniumStart_Stop/Zalenium_start.command");
+		Runtime.getRuntime().exec("open ZaleniumStart_Stop/Zalenium_start.command");
 		
 		Thread.sleep(15000);
 	}
@@ -23,7 +23,7 @@ public class ON_OFF_Zalenium {
 		
 		//Runtime.getRuntime().exec("open /Users/macbookpro152014retina/Desktop/Zalenium_stop.command");
 		//Runtime.getRuntime().exec("open /Users/macbookpro152014retina/eclipse-workspace/ZaleniumTest/ZaleniumStart_Stop/Zalenium_stop.command");
-		Runtime.getRuntime().exec("open /ZaleniumExample/ZaleniumStart_Stop/Zalenium_stop.command");
+		Runtime.getRuntime().exec("open /ZaleniumStart_Stop/Zalenium_stop.command");
 		
 		Thread.sleep(10000);
 	}
