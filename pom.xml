@@ -24,7 +24,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		
+
 
 
 
@@ -60,6 +60,13 @@
 								testng_Zalenium.xml
 							</suiteXmlFile>
 						</suiteXmlFiles>
+
+						<systemPropertyVariables>
+							<allure.results.directory>target/allure-results</allure.results.directory>
+						
+						</systemPropertyVariables>
+						
+
 					</configuration>
 				</plugin>
 			</plugins>
