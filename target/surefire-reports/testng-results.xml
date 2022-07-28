@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42888" started-at="2022-07-28T23:57:37 PST" finished-at="2022-07-28T23:58:20 PST">
+  <suite started-at="2022-07-29T00:14:15 PHT" name="Suite" finished-at="2022-07-29T00:15:08 PHT" duration-ms="53247">
     <groups>
     </groups>
-    <test name="Test" duration-ms="42888" started-at="2022-07-28T23:57:37 PST" finished-at="2022-07-28T23:58:20 PST">
+    <test started-at="2022-07-29T00:14:15 PHT" name="Test" finished-at="2022-07-29T00:15:08 PHT" duration-ms="53247">
       <class name="ZaleniumDemo.ZaleniumTestFirefox">
-        <test-method status="PASS" signature="test3()[pri:0, instance:ZaleniumDemo.ZaleniumTestFirefox@52feb982]" name="test3" duration-ms="8259" started-at="2022-07-28T23:57:52 PST" finished-at="2022-07-28T23:58:00 PST">
+        <test-method signature="test3()[pri:0, instance:ZaleniumDemo.ZaleniumTestFirefox@28f3b248]" started-at="2022-07-29T00:14:30 PHT" name="test3" finished-at="2022-07-29T00:14:41 PHT" duration-ms="11192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
       </class> <!-- ZaleniumDemo.ZaleniumTestFirefox -->
       <class name="ZaleniumDemo.ZaleniumTestChrome">
-        <test-method status="PASS" signature="start_Zalenium()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome@5faeada1]" name="start_Zalenium" is-config="true" duration-ms="15021" started-at="2022-07-28T23:57:37 PST" finished-at="2022-07-28T23:57:52 PST">
+        <test-method is-config="true" signature="start_Zalenium()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome@10d307f1]" started-at="2022-07-29T00:14:15 PHT" name="start_Zalenium" finished-at="2022-07-29T00:14:30 PHT" duration-ms="15022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start_Zalenium -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome@5faeada1]" name="test1" duration-ms="6981" started-at="2022-07-28T23:57:52 PST" finished-at="2022-07-28T23:57:59 PST">
+        <test-method signature="test1()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome@10d307f1]" started-at="2022-07-29T00:14:30 PHT" name="test1" finished-at="2022-07-29T00:14:47 PHT" duration-ms="16342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="stop_Zalenium()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome@5faeada1]" name="stop_Zalenium" is-config="true" duration-ms="10011" started-at="2022-07-28T23:58:10 PST" finished-at="2022-07-28T23:58:20 PST">
+        <test-method is-config="true" signature="stop_Zalenium()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome@10d307f1]" started-at="2022-07-29T00:14:58 PHT" name="stop_Zalenium" finished-at="2022-07-29T00:15:08 PHT" duration-ms="10009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop_Zalenium -->
       </class> <!-- ZaleniumDemo.ZaleniumTestChrome -->
       <class name="ZaleniumDemo.ZaleniumTestChrome2">
-        <test-method status="PASS" signature="test2()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome2@34c4973]" name="test2" duration-ms="17811" started-at="2022-07-28T23:57:52 PST" finished-at="2022-07-28T23:58:10 PST">
+        <test-method signature="test2()[pri:0, instance:ZaleniumDemo.ZaleniumTestChrome2@63a12c68]" started-at="2022-07-29T00:14:30 PHT" name="test2" finished-at="2022-07-29T00:14:58 PHT" duration-ms="28173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
